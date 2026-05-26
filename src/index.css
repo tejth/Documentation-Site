@@ -71,3 +71,143 @@ a { text-decoration: none; color: inherit; }
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.doc-image {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.diagram-image {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+
+/* =========================
+   TABLE STYLING
+========================= */
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+}
+
+.custom-table thead {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.custom-table th {
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.custom-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+  line-height: 1.7;
+}
+
+.custom-table tr:last-child td {
+  border-bottom: none;
+}
+
+.custom-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+  transition: 0.2s ease;
+}
+
+/* =========================
+   DATATYPE TABLE
+========================= */
+
+.datatype-table {
+  margin-top: 20px;
+}
+
+.datatype-table td:first-child {
+  font-weight: 600;
+}
+
+/* =========================
+   NESTED LIST STYLING
+========================= */
+
+.doc-page ul,
+.doc-page ol {
+  margin: 16px 0 16px 22px;
+  padding-left: 18px;
+  line-height: 1.9;
+}
+
+.doc-page li {
+  margin-bottom: 10px;
+}
+
+.doc-page li ul,
+.doc-page li ol {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.doc-page li strong {
+  color: var(--primary-color);
+}
+
+/* =========================
+   CODE BLOCK SPACING
+========================= */
+
+.code-showcase,
+pre {
+  margin: 22px 0;
+}
+
+/* =========================
+   IMAGE STYLING
+========================= */
+
+.doc-image {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.diagram-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+/* =========================
+   RESPONSIVE TABLE
+========================= */
+
+@media (max-width: 768px) {
+
+  .custom-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    min-width: 180px;
+  }
+
+}

@@ -31,6 +31,11 @@ import PythonInheritance from './pages/python/PythonInheritance';
 import PythonPolymorphism from './pages/python/PythonPolymorphism';
 import PythonMultiThreading from './pages/python/PythonMultiThreading';
 import PythonRegularExpression from './pages/python/PythonRegularExpression';
+import JavaIntroduction from './pages/java/JavaIntroduction';
+import JavaJVM from './pages/java/JavaJVM';
+import JavaVaribales from './pages/java/JavaVaribales';
+import JavaNegativeNumbers from './pages/java/JavaNegativeNumbers';
+import JavaTypeConversion from './pages/java/JavaTypeConversion';
 
 
 import './App.css';
@@ -72,7 +77,11 @@ function renderPage(path) {
   
 
     // Java coming soon
-    case '/java/intro': return <ComingSoon title="Java Introduction" section="Java" />;
+    case '/java/intro': return <JavaIntroduction />;
+    case '/java/jvm': return <JavaJVM />;
+    case '/java/variables': return <JavaVaribales />;
+    case '/java/negative-numbers': return <JavaNegativeNumbers />;
+    case '/java/type-conversion': return <JavaTypeConversion />;
     case '/java/oop': return <ComingSoon title="OOP Concepts" section="Java" />;
     case '/java/collections': return <ComingSoon title="Collections" section="Java" />;
     case '/java/streams-lambdas': return <ComingSoon title="Streams & Lambdas" section="Java" />;

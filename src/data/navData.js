@@ -50,6 +50,10 @@ export const navSections = [
     collapsible: true,
     items: [
       { label: 'Introduction', path: '/java/intro', completed: false },
+      { label: 'JVM , JDK and JRE', path: '/java/jvm', completed: false },
+      { label: 'Variables and Data Types', path: '/java/variables', completed: false },
+      { label: 'Storing Negative Numbers', path: '/java/negative-numbers', completed: false },
+      { label: 'Type Conversion', path: '/java/type-conversion', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
