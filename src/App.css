@@ -1,0 +1,9 @@
+.doc-main {
+  margin-top: var(--header-h);
+  transition: margin-left 0.2s ease;
+  min-height: calc(100vh - var(--header-h));
+}
+
+@media (max-width: 900px) {
+  .doc-main { margin-left: 0 !important; }
+}

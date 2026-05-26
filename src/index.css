@@ -1,0 +1,73 @@
+/* =========================================
+   TejDocs - Global CSS
+   ========================================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0d0f14;
+  --bg-2: #13161e;
+  --bg-3: #1a1e29;
+  --bg-card: #161923;
+  --border: rgba(255,255,255,0.07);
+  --border-strong: rgba(255,255,255,0.14);
+  --text: #e8eaf0;
+  --text-2: #8b90a0;
+  --text-3: #555a6e;
+  --accent: #6c8cff;
+  --accent-glow: rgba(108,140,255,0.15);
+  --accent-2: #43d4a0;
+  --python: #3d9bff;
+  --java: #f87c52;
+  --js: #f5d547;
+  --langchain: #a78bfa;
+  --langgraph: #34d399;
+  --sidebar-w: 260px;
+  --header-h: 58px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --font-main: 'DM Sans', sans-serif;
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --transition: 0.2s ease;
+}
+
+[data-theme="light"] {
+  --bg: #f4f5f9;
+  --bg-2: #ffffff;
+  --bg-3: #eceef5;
+  --bg-card: #ffffff;
+  --border: rgba(0,0,0,0.08);
+  --border-strong: rgba(0,0,0,0.14);
+  --text: #111420;
+  --text-2: #5a5f74;
+  --text-3: #9a9fb0;
+  --accent-glow: rgba(108,140,255,0.08);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-main);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background var(--transition), color var(--transition);
+  overflow-x: hidden;
+}
+a { text-decoration: none; color: inherit; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 99px; }
+
+/* Syntax highlighting */
+.kw { color: #c792ea; }
+.fn { color: #82aaff; }
+.str { color: #c3e88d; }
+.num { color: #f78c6c; }
+.cmt { color: #546e7a; font-style: italic; }
+.dec { color: #ffcb6b; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,79 @@
+.header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: var(--header-h);
+  background: var(--bg-2);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 16px;
+  padding: 0 20px;
+  backdrop-filter: blur(10px);
+}
+.header-left { display: flex; align-items: center; gap: 14px; min-width: 220px; }
+.header-center { flex: 1; max-width: 480px; margin: 0 auto; }
+.header-right { display: flex; align-items: center; gap: 10px; min-width: 160px; justify-content: flex-end; }
+
+.sidebar-toggle {
+  display: flex; flex-direction: column; gap: 4px;
+  background: none; border: none; cursor: pointer; padding: 6px;
+}
+.sidebar-toggle span {
+  display: block; width: 18px; height: 2px;
+  background: var(--text-2);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+.logo {
+  font-family: var(--font-display);
+  font-weight: 800; font-size: 1.15rem;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.logo-bracket { color: var(--accent); }
+
+.search-bar {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 7px 12px;
+  transition: border-color var(--transition);
+}
+.search-bar:focus-within { border-color: var(--accent); }
+.search-bar svg { color: var(--text-3); flex-shrink: 0; }
+.search-bar input {
+  flex: 1; background: none; border: none; outline: none;
+  font-size: 0.875rem; color: var(--text); font-family: var(--font-main);
+}
+.search-bar input::placeholder { color: var(--text-3); }
+.search-bar kbd {
+  font-family: var(--font-mono); font-size: 0.7rem;
+  color: var(--text-3);
+  background: var(--border);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px; padding: 1px 5px;
+}
+.theme-toggle {
+  width: 36px; height: 36px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--bg-3);
+  cursor: pointer; color: var(--text-2);
+  display: flex; align-items: center; justify-content: center;
+  transition: all var(--transition);
+}
+.theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.github-btn {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 0.82rem; font-weight: 500;
+  color: var(--text-2);
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 7px 12px;
+  transition: all var(--transition);
+  text-decoration: none;
+}
+.github-btn:hover { color: var(--text); border-color: var(--border-strong); }
+
+@media (max-width: 900px) {
+  .header-center { display: none; }
+}

@@ -1,0 +1,45 @@
+.code-showcase {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.code-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px;
+  background: var(--bg-3);
+  border-bottom: 1px solid var(--border);
+}
+.code-dots { display: flex; gap: 6px; }
+.dot { width: 11px; height: 11px; border-radius: 50%; }
+.dot.red { background: #ff5f56; }
+.dot.yellow { background: #ffbd2e; }
+.dot.green { background: #27c93f; }
+.code-filename {
+  font-family: var(--font-mono);
+  font-size: 0.78rem; color: var(--text-3);
+  flex: 1;
+}
+.copy-btn {
+  font-family: var(--font-main);
+  font-size: 0.75rem; font-weight: 500;
+  color: var(--text-3);
+  background: none; border: 1px solid var(--border);
+  border-radius: 4px; padding: 3px 10px; cursor: pointer;
+  transition: all var(--transition);
+}
+.copy-btn:hover { color: var(--accent); border-color: var(--accent); }
+.copy-btn.copied { color: var(--accent-2); border-color: var(--accent-2); }
+
+.code-block {
+  margin: 0;
+  padding: 24px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.8;
+  overflow-x: auto;
+  background: var(--bg-card);
+  color: var(--text);
+}
