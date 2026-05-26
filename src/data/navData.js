@@ -39,6 +39,7 @@ export const navSections = [
       { label: 'Inheritance', path: '/python/inheritance', completed: false },
       { label: 'Polymorphism', path: '/python/polymorphism', completed: false },
       { label: 'Multithreading', path: '/python/multithreading', completed: false },
+      { label: 'Regular Expressions', path: '/python/regular-expressions', completed: false },
     ],
   },
   {

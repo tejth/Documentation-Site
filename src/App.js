@@ -30,6 +30,7 @@ import PythonStaticVaribales from './pages/python/PythonStaticVaribales';
 import PythonInheritance from './pages/python/PythonInheritance';
 import PythonPolymorphism from './pages/python/PythonPolymorphism';
 import PythonMultiThreading from './pages/python/PythonMultiThreading';
+import PythonRegularExpression from './pages/python/PythonRegularExpression';
 
 
 import './App.css';
@@ -66,7 +67,7 @@ function renderPage(path) {
     case '/python/inheritance': return <PythonInheritance />;
     case '/python/polymorphism': return <PythonPolymorphism />;
     case '/python/multithreading': return <PythonMultiThreading />;
-
+    case '/python/regular-expressions': return <PythonRegularExpression />;
 
   
 

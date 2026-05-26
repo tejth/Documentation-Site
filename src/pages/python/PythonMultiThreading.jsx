@@ -475,7 +475,7 @@ print("Main program ended")`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Polymorphism', path: '/python/polymorphism' }}
-    
+        next={{ label: 'Regular Expressions', path: '/python/regular-expressions' }}
       />
 
     </DocPage>
