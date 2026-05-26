@@ -4,7 +4,6 @@ export const navSections = [
     label: 'Getting Started',
     collapsible: false,
     items: [
-      { label: 'Overview', path: '/', icon: 'home' },
       { label: 'About This Docs', path: '/about', icon: 'info' },
     ],
   },
