@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# 🚀 TejDocs — Modern Python Documentation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="90" />
 
-In the project directory, you can run:
+### ⚡ A Beautiful & Interactive Python Documentation Platform
 
-### `npm start`
+<p>
+Modern • Fast • Responsive • Developer Friendly
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite" />
+<img src="https://img.shields.io/badge/CSS-Modern-orange?style=for-the-badge&logo=css3" />
+<img src="https://img.shields.io/badge/Python-Docs-green?style=for-the-badge&logo=python" />
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# 🌟 Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TejDocs is a beautifully designed modern documentation website specially built for learning Python from beginner to advanced level.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It contains:
+- 📘 Beginner-friendly explanations
+- 💻 Real-world Python examples
+- 🎯 Interview questions
+- 🔥 Advanced concepts
+- 🌙 Dark / Light theme
+- 🔍 Live search functionality
+- 📱 Fully responsive UI
+- ⚡ Fast performance using Vite
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+# ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Python Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Covers complete Python topics including:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Variables & Data Types
+- Input / Output
+- Type Casting
+- Comments
+- Operators
+- Loops
+- Functions
+- OOPs
+- Encapsulation
+- Inheritance
+- Polymorphism
+- File Handling
+- JSON
+- Multithreading
+- Decorators
+- Iterators
+- Generators
+- Modules & Packages
+- Virtual Environment
+- Lambda Functions
+- map(), filter(), reduce()
+- List Comprehension
+- Exception Handling
+- And much more...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# 🎨 UI Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Modern Documentation Layout  
+✅ Animated Sidebar  
+✅ Beautiful Code Blocks  
+✅ Responsive Design  
+✅ Keyboard Shortcut Support (`Ctrl + K`)  
+✅ Search Suggestions  
+✅ Dark & Light Mode  
+✅ Navigation Between Pages  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# 🖥️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend Library |
+| Vite | Fast Build Tool |
+| CSS3 | Styling |
+| JavaScript | Functionality |
+| Python | Documentation Content |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 📂 Project Structure
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Sidebar.jsx
+│   ├── CodeBlock.jsx
+│   └── DocLayout.jsx
+│
+├── pages/
+│   └── python/
+│       ├── Intro.jsx
+│       ├── Functions.jsx
+│       ├── OOPs.jsx
+│       ├── Inheritance.jsx
+│       ├── Multithreading.jsx
+│       └── ...
+│
+├── styles/
+│
+└── App.jsx
