@@ -36,6 +36,7 @@ import JavaJVM from './pages/java/JavaJVM';
 import JavaVaribales from './pages/java/JavaVaribales';
 import JavaNegativeNumbers from './pages/java/JavaNegativeNumbers';
 import JavaTypeConversion from './pages/java/JavaTypeConversion';
+import JavaOperators from './pages/java/JavaOperators';
 
 
 import './App.css';
@@ -82,6 +83,7 @@ function renderPage(path) {
     case '/java/variables': return <JavaVaribales />;
     case '/java/negative-numbers': return <JavaNegativeNumbers />;
     case '/java/type-conversion': return <JavaTypeConversion />;
+    case '/java/operators': return <JavaOperators />;
     case '/java/oop': return <ComingSoon title="OOP Concepts" section="Java" />;
     case '/java/collections': return <ComingSoon title="Collections" section="Java" />;
     case '/java/streams-lambdas': return <ComingSoon title="Streams & Lambdas" section="Java" />;
