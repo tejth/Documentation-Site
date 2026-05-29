@@ -39,6 +39,7 @@ import JavaTypeConversion from './pages/java/JavaTypeConversion';
 import JavaOperators from './pages/java/JavaOperators';
 import JavaCondiitional from './pages/java/JavaConditional';
 import JavaLoops from './pages/java/JavaLoops';
+import JavaStrings from './pages/java/JavaStrings';
 
 
 import './App.css';
@@ -78,6 +79,7 @@ function renderPage(path) {
     case '/python/regular-expressions': return <PythonRegularExpression />;
     case '/java/conditionals': return <JavaCondiitional />;
     case '/java/loops': return <JavaLoops />;
+    case '/java/strings': return <JavaStrings />;
 
 
   
