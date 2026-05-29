@@ -55,6 +55,7 @@ export const navSections = [
       { label: 'Storing Negative Numbers', path: '/java/negative-numbers', completed: false },
       { label: 'Type Conversion', path: '/java/type-conversion', completed: false },
       {label: 'Operators in Java', path: '/java/operators', completed: false },
+      {label: 'Conditionals', path: '/java/conditionals', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },

@@ -37,6 +37,7 @@ import JavaVaribales from './pages/java/JavaVaribales';
 import JavaNegativeNumbers from './pages/java/JavaNegativeNumbers';
 import JavaTypeConversion from './pages/java/JavaTypeConversion';
 import JavaOperators from './pages/java/JavaOperators';
+import JavaCondiitional from './pages/java/JavaConditional';
 
 
 import './App.css';
@@ -74,6 +75,7 @@ function renderPage(path) {
     case '/python/polymorphism': return <PythonPolymorphism />;
     case '/python/multithreading': return <PythonMultiThreading />;
     case '/python/regular-expressions': return <PythonRegularExpression />;
+    case '/java/conditionals': return <JavaCondiitional />;
 
   
 
