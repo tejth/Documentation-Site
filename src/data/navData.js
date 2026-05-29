@@ -56,6 +56,7 @@ export const navSections = [
       { label: 'Type Conversion', path: '/java/type-conversion', completed: false },
       {label: 'Operators in Java', path: '/java/operators', completed: false },
       {label: 'Conditionals', path: '/java/conditionals', completed: false },
+      {label: 'Loops', path: '/java/loops', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
