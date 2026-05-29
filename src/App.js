@@ -40,6 +40,8 @@ import JavaOperators from './pages/java/JavaOperators';
 import JavaCondiitional from './pages/java/JavaConditional';
 import JavaLoops from './pages/java/JavaLoops';
 import JavaStrings from './pages/java/JavaStrings';
+import JavaArrays from './pages/java/JavaArrays';
+import JavaFunctions from './pages/java/JavaFunctions';
 
 
 import './App.css';
@@ -80,7 +82,10 @@ function renderPage(path) {
     case '/java/conditionals': return <JavaCondiitional />;
     case '/java/loops': return <JavaLoops />;
     case '/java/strings': return <JavaStrings />;
+    case '/java/arrays': return <JavaArrays />;
+    case '/java/functions': return <JavaFunctions />;
 
+  
 
   
 

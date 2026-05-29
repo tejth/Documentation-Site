@@ -58,6 +58,8 @@ export const navSections = [
       {label: 'Conditionals', path: '/java/conditionals', completed: false },
       {label: 'Loops', path: '/java/loops', completed: false },
       {label: 'Strings', path: '/java/strings', completed: false },
+      {label: 'Arrays', path: '/java/arrays', completed: false },
+      {label: 'Functions', path: '/java/functions', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
