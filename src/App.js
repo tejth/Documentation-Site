@@ -42,6 +42,7 @@ import JavaLoops from './pages/java/JavaLoops';
 import JavaStrings from './pages/java/JavaStrings';
 import JavaArrays from './pages/java/JavaArrays';
 import JavaFunctions from './pages/java/JavaFunctions';
+import LangchainIntro from './pages/langchain/LangchainIntro';
 
 
 import './App.css';
@@ -111,7 +112,7 @@ function renderPage(path) {
     case '/javascript/modules': return <ComingSoon title="Modules" section="JavaScript" />;
 
     // LangChain/LangGraph coming soon
-    case '/langchain/intro': return <ComingSoon title="LangChain Introduction" section="LangChain" />;
+    case '/langchain/intro': return <LangchainIntro />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
