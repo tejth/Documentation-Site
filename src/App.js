@@ -43,6 +43,7 @@ import JavaStrings from './pages/java/JavaStrings';
 import JavaArrays from './pages/java/JavaArrays';
 import JavaFunctions from './pages/java/JavaFunctions';
 import LangchainIntro from './pages/langchain/LangchainIntro';
+import JavaClasses from './pages/java/JavaClasses';
 
 
 import './App.css';
@@ -85,6 +86,7 @@ function renderPage(path) {
     case '/java/strings': return <JavaStrings />;
     case '/java/arrays': return <JavaArrays />;
     case '/java/functions': return <JavaFunctions />;
+    case '/java/classes': return <JavaClasses />;
 
   
 

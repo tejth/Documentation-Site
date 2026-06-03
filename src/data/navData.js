@@ -60,6 +60,7 @@ export const navSections = [
       {label: 'Strings', path: '/java/strings', completed: false },
       {label: 'Arrays', path: '/java/arrays', completed: false },
       {label: 'Functions', path: '/java/functions', completed: false },
+      {label: 'Classes and Objects', path: '/java/classes', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
