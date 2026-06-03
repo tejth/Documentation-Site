@@ -44,6 +44,7 @@ import JavaArrays from './pages/java/JavaArrays';
 import JavaFunctions from './pages/java/JavaFunctions';
 import LangchainIntro from './pages/langchain/LangchainIntro';
 import JavaClasses from './pages/java/JavaClasses';
+import JavaConstructors from './pages/java/JavaConstructors';
 
 
 import './App.css';
@@ -87,6 +88,7 @@ function renderPage(path) {
     case '/java/arrays': return <JavaArrays />;
     case '/java/functions': return <JavaFunctions />;
     case '/java/classes': return <JavaClasses />;
+    case '/java/constructors': return <JavaConstructors />;
 
   
 
