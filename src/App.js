@@ -45,6 +45,9 @@ import JavaFunctions from './pages/java/JavaFunctions';
 import LangchainIntro from './pages/langchain/LangchainIntro';
 import JavaClasses from './pages/java/JavaClasses';
 import JavaConstructors from './pages/java/JavaConstructors';
+import JavaObjectMemory from './pages/java/JavaObjectMemory';
+import JavaCallByValue from './pages/java/JavaCallByValue';
+import JavaStaticFinal from './pages/java/JavaStaticFinal';
 
 
 import './App.css';
@@ -89,6 +92,9 @@ function renderPage(path) {
     case '/java/functions': return <JavaFunctions />;
     case '/java/classes': return <JavaClasses />;
     case '/java/constructors': return <JavaConstructors />;
+    case '/java/object-memory': return <JavaObjectMemory />;
+    case '/java/call-by-value': return <JavaCallByValue />;
+    case '/java/static-final': return <JavaStaticFinal />;
 
   
 
