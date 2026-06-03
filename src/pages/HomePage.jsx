@@ -60,7 +60,7 @@ export default function HomePage() {
           Everything I've <span className="highlight">Learned</span><br />in One Place
         </h1>
         <p className="hero-subtitle">
-          A structured documentation of Python, Java, JavaScript, LangChain, and LangGraph — built by Tej while studying CSE at JECRC University.
+          A structured documentation of Python, Java, JavaScript, LangChain, and LangGraph — built by Tejendra.
         </p>
         <div className="hero-actions">
           <button className="btn-primary" onClick={() => navigate('/python/intro')}>Start with Python →</button>

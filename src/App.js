@@ -48,6 +48,7 @@ import JavaConstructors from './pages/java/JavaConstructors';
 import JavaObjectMemory from './pages/java/JavaObjectMemory';
 import JavaCallByValue from './pages/java/JavaCallByValue';
 import JavaStaticFinal from './pages/java/JavaStaticFinal';
+import LangchainModels from './pages/langchain/LangchainModels';
 
 
 import './App.css';
@@ -123,6 +124,7 @@ function renderPage(path) {
 
     // LangChain/LangGraph coming soon
     case '/langchain/intro': return <LangchainIntro />;
+    case '/langchain/models': return <LangchainModels />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;

@@ -95,6 +95,7 @@ export const navSections = [
     collapsible: true,
     items: [
       { label: 'Introduction', path: '/langchain/intro', completed: false },
+      {label: 'Models', path: '/langchain/models', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },
       { label: 'RAG Pipelines', path: '/langchain/rag-pipelines', completed: false },
     ],
