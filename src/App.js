@@ -115,7 +115,6 @@ function renderPage(path) {
     case '/java/negative-numbers': return <JavaNegativeNumbers />;
     case '/java/type-conversion': return <JavaTypeConversion />;
     case '/java/operators': return <JavaOperators />;
-    case '/java/oop': return <ComingSoon title="OOP Concepts" section="Java" />;
     case '/java/collections': return <ComingSoon title="Collections" section="Java" />;
     case '/java/streams-lambdas': return <ComingSoon title="Streams & Lambdas" section="Java" />;
     case '/java/exception-handling': return <ComingSoon title="Exception Handling" section="Java" />;
@@ -132,7 +131,6 @@ function renderPage(path) {
     // LangChain/LangGraph coming soon
     case '/langchain/intro': return <LangchainIntro />;
     case '/langchain/models': return <LangchainModels />;
-    case '/langchain/models': return <LangChainModels />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
