@@ -53,6 +53,7 @@ import JavaEncapsulationAccessModifiers from './pages/java/JavaEncapsulationAcce
 import JavaPackages from './pages/java/JavaPackages';
 import JavaInheritance from './pages/java/JavaInheritance';
 import JavaAbstraction from './pages/java/JavaAbstraction';
+import JavaPolyMorphism from './pages/java/JavaPolymorphism';
 
 
 import './App.css';
@@ -104,6 +105,7 @@ function renderPage(path) {
     case '/java/packages': return <JavaPackages />;
     case '/java/inheritance': return <JavaInheritance />;
     case '/java/abstraction': return <JavaAbstraction />;
+    case '/java/polymorphism': return <JavaPolyMorphism />;
 
   
 

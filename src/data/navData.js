@@ -69,6 +69,7 @@ export const navSections = [
       {label: 'Packages', path: '/java/packages', completed: false },
       {label: 'Inheritance', path: '/java/inheritance', completed: false },
       {label: 'Abstraction', path: '/java/abstraction', completed: false },
+      {label: 'Polymorphism', path: '/java/polymorphism', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
