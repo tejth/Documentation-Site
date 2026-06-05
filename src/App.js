@@ -55,6 +55,8 @@ import JavaInheritance from './pages/java/JavaInheritance';
 import JavaAbstraction from './pages/java/JavaAbstraction';
 import JavaPolyMorphism from './pages/java/JavaPolymorphism';
 import JavaAutoBoxingUnboxing from './pages/java/JavaAutoBoxingUnboxing';
+import JavaOopsPractice from './pages/java/JavaOopsPractice';
+import JavaCollection from './pages/java/JavaCollection';
 
 
 import './App.css';
@@ -108,22 +110,12 @@ function renderPage(path) {
     case '/java/abstraction': return <JavaAbstraction />;
     case '/java/polymorphism': return <JavaPolyMorphism />;
     case '/java/auto-boxing-unboxing': return <JavaAutoBoxingUnboxing />;
-
+    case '/java/ooppractice': return <JavaOopsPractice />;
+    case '/java/collections': return <JavaCollection />;
   
 
   
 
-    // Java coming soon
-    case '/java/intro': return <JavaIntroduction />;
-    case '/java/jvm': return <JavaJVM />;
-    case '/java/variables': return <JavaVaribales />;
-    case '/java/negative-numbers': return <JavaNegativeNumbers />;
-    case '/java/type-conversion': return <JavaTypeConversion />;
-    case '/java/operators': return <JavaOperators />;
-    case '/java/collections': return <ComingSoon title="Collections" section="Java" />;
-    case '/java/streams-lambdas': return <ComingSoon title="Streams & Lambdas" section="Java" />;
-    case '/java/exception-handling': return <ComingSoon title="Exception Handling" section="Java" />;
-    case '/java/multithreading': return <ComingSoon title="Multithreading" section="Java" />;
 
     // JS coming soon
     case '/javascript/intro': return <ComingSoon title="JavaScript Introduction" section="JavaScript" />;

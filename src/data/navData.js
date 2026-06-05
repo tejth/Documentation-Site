@@ -71,11 +71,8 @@ export const navSections = [
       {label: 'Abstraction', path: '/java/abstraction', completed: false },
       {label: 'Polymorphism', path: '/java/polymorphism', completed: false },
       { label: 'Auto-boxing and Unboxing', path: '/java/auto-boxing-unboxing', completed: false },
-      { label: 'OOP Concepts', path: '/java/oop', completed: false },
-      { label: 'Collections', path: '/java/collections', completed: false },
-      { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
-      { label: 'Exception Handling', path: '/java/exception-handling', completed: false },
-      { label: 'Multithreading', path: '/java/multithreading', completed: false },
+      { label: 'OOP Practice', path: '/java/ooppractice', completed: false },
+      {label: 'Collection Framework', path: '/java/collections', completed: false }
     ],
   },
   {
