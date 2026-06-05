@@ -112,6 +112,12 @@ function renderPage(path) {
     case '/java/auto-boxing-unboxing': return <JavaAutoBoxingUnboxing />;
     case '/java/ooppractice': return <JavaOopsPractice />;
     case '/java/collections': return <JavaCollection />;
+    case '/java/intro': return <JavaIntroduction />;
+    case '/java/jvm': return <JavaJVM />;
+    case '/java/variables': return <JavaVaribales />;
+    case '/java/negative-numbers': return <JavaNegativeNumbers />;
+    case '/java/type-conversion': return <JavaTypeConversion />;
+    case '/java/operators': return <JavaOperators />;
   
 
   

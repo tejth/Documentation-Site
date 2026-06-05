@@ -21,14 +21,13 @@ const JavaOopsPractice = () => {
         This section contains commonly asked Java OOP and TCS Xplore style
         practice questions with complete solutions. The questions cover classes,
         objects, arrays, sorting, prime numbers, documents, books and more.
-        :contentReference[oaicite:0]{index=0}
       </p>
 
       <h2>Question 1: Compare 2D Points for Distance from Origin</h2>
 
       <p>
         Create a Point class having x and y coordinates. Read three points and
-        return the point having the maximum distance from origin. :contentReference[oaicite:1]{index=1}
+        return the point having the maximum distance from origin.
       </p>
 
       <h3>Sample Input</h3>
@@ -98,7 +97,6 @@ class Solution {
 
       <p>
         Read a string and print the character having the smallest ASCII value.
-        :contentReference[oaicite:2]{index=2}
       </p>
 
       <h3>Sample Input</h3>
@@ -138,7 +136,7 @@ public class Solution {
 
       <p>
         Read five numbers and print factorial of each number. Use long datatype
-        to avoid overflow. :contentReference[oaicite:3]{index=3}
+        to avoid overflow.
       </p>
 
       <CodeBlock filename="FactorialQuestions.java">{`import java.util.*;
@@ -183,7 +181,6 @@ public class Solution {
 
       <p>
         Read n numbers and display the second largest prime number among them.
-        :contentReference[oaicite:4]{index=4}
       </p>
 
       <h3>Sample Input</h3>
@@ -243,7 +240,7 @@ public class Solution {
 
       <p>
         Create a Document class and return documents containing odd number of
-        pages sorted according to id. :contentReference[oaicite:5]{index=5}
+        pages sorted according to id.
       </p>
 
       <CodeBlock filename="DocumentQuestion.java">{`import java.util.*;
@@ -295,7 +292,7 @@ public class Solution {
 
       <p>
         Create a Book class and sort all books according to price in ascending
-        order. :contentReference[oaicite:6]{index=6}
+        order.
       </p>
 
       <CodeBlock filename="BookSorting.java">{`import java.util.*;
