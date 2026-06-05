@@ -51,6 +51,7 @@ import JavaStaticFinal from './pages/java/JavaStaticFinal';
 import LangchainModels from './pages/langchain/LangchainModels';
 import LangChainModels from './pages/langchain/LangchainModels';
 import JavaEncapsulationAccessModifiers from './pages/java/JavaEncapsulationAccessModifiers';
+import JavaPackages from './pages/java/JavaPackages';
 
 
 import './App.css';
@@ -99,6 +100,7 @@ function renderPage(path) {
     case '/java/call-by-value': return <JavaCallByValue />;
     case '/java/static-final': return <JavaStaticFinal />;
     case '/java/encapsulation-access-modifiers': return <JavaEncapsulationAccessModifiers />;
+    case '/java/packages': return <JavaPackages />;
 
   
 
