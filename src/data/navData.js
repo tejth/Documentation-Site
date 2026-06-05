@@ -65,6 +65,7 @@ export const navSections = [
       {label: 'Object Memory', path: '/java/object-memory', completed: false },
       {label: 'Call By Value and Reference', path: '/java/call-by-value', completed: false },
       {label: 'Static and Final', path: '/java/static-final', completed: false },
+      {label: 'Encapsulation and Access Modifiers', path: '/java/encapsulation-access-modifiers', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },
