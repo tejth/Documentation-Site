@@ -70,6 +70,7 @@ export const navSections = [
       {label: 'Inheritance', path: '/java/inheritance', completed: false },
       {label: 'Abstraction', path: '/java/abstraction', completed: false },
       {label: 'Polymorphism', path: '/java/polymorphism', completed: false },
+      { label: 'Auto-boxing and Unboxing', path: '/java/auto-boxing-unboxing', completed: false },
       { label: 'OOP Concepts', path: '/java/oop', completed: false },
       { label: 'Collections', path: '/java/collections', completed: false },
       { label: 'Streams & Lambdas', path: '/java/streams-lambdas', completed: false },

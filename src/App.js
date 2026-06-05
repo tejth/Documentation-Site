@@ -54,6 +54,7 @@ import JavaPackages from './pages/java/JavaPackages';
 import JavaInheritance from './pages/java/JavaInheritance';
 import JavaAbstraction from './pages/java/JavaAbstraction';
 import JavaPolyMorphism from './pages/java/JavaPolymorphism';
+import JavaAutoBoxingUnboxing from './pages/java/JavaAutoBoxingUnboxing';
 
 
 import './App.css';
@@ -106,6 +107,7 @@ function renderPage(path) {
     case '/java/inheritance': return <JavaInheritance />;
     case '/java/abstraction': return <JavaAbstraction />;
     case '/java/polymorphism': return <JavaPolyMorphism />;
+    case '/java/auto-boxing-unboxing': return <JavaAutoBoxingUnboxing />;
 
   
 
