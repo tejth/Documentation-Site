@@ -52,6 +52,7 @@ import LangchainModels from './pages/langchain/LangchainModels';
 import JavaEncapsulationAccessModifiers from './pages/java/JavaEncapsulationAccessModifiers';
 import JavaPackages from './pages/java/JavaPackages';
 import JavaInheritance from './pages/java/JavaInheritance';
+import JavaAbstraction from './pages/java/JavaAbstraction';
 
 
 import './App.css';
@@ -102,6 +103,7 @@ function renderPage(path) {
     case '/java/encapsulation-access-modifiers': return <JavaEncapsulationAccessModifiers />;
     case '/java/packages': return <JavaPackages />;
     case '/java/inheritance': return <JavaInheritance />;
+    case '/java/abstraction': return <JavaAbstraction />;
 
   
 
