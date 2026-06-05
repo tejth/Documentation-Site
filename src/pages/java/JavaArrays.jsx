@@ -325,7 +325,7 @@ for(int i = 0; i < arr.length; i++) {
 
       <PageNav
         prev={{ label: 'Strings', path: '/java/strings' }}
-        next={{ label: 'ArrayList', path: '/java/arraylist' }}
+        next={{ label: 'Functions', path: '/java/functions' }}
       />
     </DocPage>
   );

@@ -367,7 +367,7 @@ for(int i = 1; i <= 3; i++){
 
       <PageNav
         prev={{ label: 'Conditional Statements', path: '/java/conditional' }}
-        next={{ label: 'Arrays', path: '/java/arrays' }}
+        next={{ label: 'Strings', path: '/java/strings' }}
       />
     </DocPage>
   );

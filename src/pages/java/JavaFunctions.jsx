@@ -340,7 +340,7 @@ Bye`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Arrays', path: '/java/arrays' }}
-        next={{ label: 'OOPs', path: '/java/oops' }}
+        next={{ label: 'Classes and Objects', path: '/java/classes' }}
       />
     </DocPage>
   );

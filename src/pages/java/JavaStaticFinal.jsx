@@ -468,8 +468,8 @@ Main`}</CodeBlock>
           path: '/java/call-by-value'
         }}
         next={{
-          label: 'Inheritance',
-          path: '/java/inheritance'
+          label: 'Encapsulation ',
+          path: '/java/encapsulation-access-modifiers'
         }}
       />
     </DocPage>

@@ -534,7 +534,7 @@ System.out.println(result);`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Type Conversion', path: '/java/type-conversion' }}
-        next={{ label: 'Control Statements', path: '/java/control-statements' }}
+        next={{ label: 'Conditionals', path: '/java/conditionals' }}
       />
     </DocPage>
   );

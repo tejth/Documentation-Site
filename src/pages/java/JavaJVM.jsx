@@ -326,7 +326,7 @@ export default function JavaJVM() {
       <PageNav
         prev={{
           label: "Java Introduction",
-          path: "/java/introduction",
+          path: "/java/intro",
         }}
         next={{
           label: "Java Variables",

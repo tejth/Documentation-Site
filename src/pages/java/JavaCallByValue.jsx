@@ -308,7 +308,7 @@ Hence Java is still Call by Value.`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Object Memory', path: '/java/object-memory' }}
-        next={{ label: 'Inheritance', path: '/java/inheritance' }}
+        next={{ label: 'Static and Final', path: '/java/static-final' }}
       />
     </DocPage>
   );

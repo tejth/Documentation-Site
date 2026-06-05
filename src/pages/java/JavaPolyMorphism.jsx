@@ -484,7 +484,7 @@ public class Main {
 
       <PageNav
         prev={{ label: 'Abstraction', path: '/java/abstraction' }}
-        next={{ label: 'Exception Handling', path: '/java/exception-handling' }}
+        next={{ label: 'AutoBoxing', path: '/java/auto-boxing-unboxing' }}
       />
     </DocPage>
   );

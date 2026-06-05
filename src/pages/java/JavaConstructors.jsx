@@ -383,8 +383,8 @@ Constructor A`}</CodeBlock>
           path: '/java/classes'
         }}
         next={{
-          label: 'Inheritance',
-          path: '/java/inheritance'
+          label: 'Object Memory Management',
+          path: '/java/object-memory'
         }}
       />
     </DocPage>

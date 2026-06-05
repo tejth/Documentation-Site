@@ -437,8 +437,8 @@ class SavingsAccount extends BankAccount {
           path: '/java/static-final'
         }}
         next={{
-          label: 'Inheritance',
-          path: '/java/inheritance'
+          label: 'Packages & Imports',
+          path: '/java/packages'
         }}
       />
     </DocPage>

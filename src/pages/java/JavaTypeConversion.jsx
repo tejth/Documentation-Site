@@ -324,8 +324,8 @@ System.out.println(result);`}</CodeBlock>
 
       <PageNav
         prev={{
-          label: 'Variables and Datatypes',
-          path: '/java/variables'
+          label: 'Storing Negative Numbers in Java',
+          path: '/java/negative-numbers'
         }}
         next={{
           label: 'Operators in Java',

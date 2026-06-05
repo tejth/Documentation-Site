@@ -394,7 +394,7 @@ Animal`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Packages', path: '/java/packages' }}
-        next={{ label: 'Polymorphism', path: '/java/polymorphism' }}
+        next={{ label: 'Abstraction', path: '/java/abstraction' }}
       />
     </DocPage>
   );

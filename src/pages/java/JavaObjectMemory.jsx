@@ -318,12 +318,12 @@ to the nearest multiple of 8 bytes.`}</CodeBlock>
 
       <PageNav
         prev={{
-          label: 'Constructor Chaining',
+          label: 'Constructors',
           path: '/java/constructors'
         }}
         next={{
-          label: 'Inheritance',
-          path: '/java/inheritance'
+          label: 'Call By Value vs Call By Reference',
+          path: '/java/call-by-value'
         }}
       />
     </DocPage>

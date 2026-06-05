@@ -527,8 +527,8 @@ multi line comment
           path: '/java/jvm'
         }}
         next={{
-          label: 'Operators in Java',
-          path: '/java/operators'
+          label: 'Storing Negative Numbers in Java',
+          path: '/java/negative-numbers'
         }}
       />
     </DocPage>

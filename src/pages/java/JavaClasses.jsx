@@ -505,8 +505,8 @@ public class Level1 {
           path: '/java/functions'
         }}
         next={{
-          label: 'Inheritance',
-          path: '/java/inheritance'
+          label: 'Constructors',
+          path: '/java/constructors'
         }}
       />
     </DocPage>

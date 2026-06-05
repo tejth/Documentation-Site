@@ -430,8 +430,8 @@ Therefore answer = -42`}</CodeBlock>
           path: '/java/variables'
         }}
         next={{
-          label: 'Operators in Java',
-          path: '/java/operators'
+          label: 'Type Conversion and Casting',
+          path: '/java/type-conversion'
         }}
       />
     </DocPage>

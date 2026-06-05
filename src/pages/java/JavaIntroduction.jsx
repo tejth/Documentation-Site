@@ -497,7 +497,7 @@ java HelloWorld`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'Documentation Home', path: '/' }}
-        next={{ label: 'Variables and Data Types', path: '/java/variables' }}
+        next={{ label: 'JDK , JRE and JVM', path: '/java/jvm' }}
       />
 
     </DocPage>

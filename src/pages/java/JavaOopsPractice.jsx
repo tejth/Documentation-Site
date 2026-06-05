@@ -347,10 +347,7 @@ public class Solution {
           label: 'Autoboxing & Unboxing',
           path: '/java/autoboxing-unboxing'
         }}
-        next={{
-          label: 'Exception Handling',
-          path: '/java/exception-handling'
-        }}
+        
       />
     </DocPage>
   );

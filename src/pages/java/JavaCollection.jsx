@@ -486,7 +486,7 @@ A
       <PageNav
         prev={{
           label: 'OOPs Practice Questions',
-          path: '/java/oops-practice'
+          path: '/java/ooppractice'
         }}
         next={{
           label: 'Exception Handling',
