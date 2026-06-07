@@ -57,6 +57,7 @@ import JavaPolymorphism from './pages/java/JavaPolymorphism';
 import JavaAutoBoxingUnboxing from './pages/java/JavaAutoBoxingUnboxing';
 import JavaOopsPractice from './pages/java/JavaOopsPractice';
 import JavaCollection from './pages/java/JavaCollection';
+import LangchainPrompt from './pages/langchain/LangchainPrompt';
 
 // start
 import './App.css';
@@ -134,6 +135,7 @@ function renderPage(path) {
     // LangChain/LangGraph coming soon
     case '/langchain/intro': return <LangchainIntro />;
     case '/langchain/models': return <LangchainModels />;
+    case '/langchain/prompts': return <LangchainPrompt />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
