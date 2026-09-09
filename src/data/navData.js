@@ -117,4 +117,15 @@ export const navSections = [
       { label: 'Ollama Integration', path: '/langgraph/ollama-integration', completed: false },
     ],
   },
+   {
+    id: 'dataanalysis',
+    label: 'DataAnalysis',
+    color: 'var(--datanalysis)',
+    emoji: '🗺️',
+    collapsible: true,
+    items: [
+      { label: 'Numpy', path: '/dataanalysis/numpy', completed: false },
+      { label: 'Pandas', path: '/dataanalysis/pandas', completed: false },
+    ],
+  },
 ];

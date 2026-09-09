@@ -58,6 +58,8 @@ import JavaAutoBoxingUnboxing from './pages/java/JavaAutoBoxingUnboxing';
 import JavaOopsPractice from './pages/java/JavaOopsPractice';
 import JavaCollection from './pages/java/JavaCollection';
 import LangchainPrompt from './pages/langchain/LangchainPrompt';
+import Numpy  from './pages/dataanalysis/Numpy';
+import Pandas  from './pages/dataanalysis/Pandas';
 
 // start
 import './App.css';
@@ -141,6 +143,11 @@ function renderPage(path) {
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
     case '/langgraph/stategraph': return <ComingSoon title="StateGraph" section="LangGraph" />;
     case '/langgraph/ollama-integration': return <ComingSoon title="Ollama Integration" section="LangGraph" />;
+
+    //Data Analysis with Python 
+    case '/dataanalysis/numpy': return <Numpy />;
+    case '/dataanalysis/pandas': return <Pandas />;
+    
 
     default: return <HomePage />;
   }

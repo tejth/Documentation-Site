@@ -43,6 +43,14 @@ const topics = [
     desc: 'StateGraph-based workflows, ReAct agents, Ollama local LLMs, and multi-node pipelines.',
     tags: ['StateGraph', 'Ollama', 'ReAct'],
   },
+   {
+    href: '#',
+    className: 'dataanalysis',
+    icon: '🗺️',
+    title: 'Data Analysis with Python',
+    desc: 'Data Analysis using numpy , pandas , seaborn and matplotlib libraries.',
+    tags: ['Numpy', 'Pandas', 'MatplotLib','SeaBorn'],
+  },
 ];
 
 export default function HomePage() {
