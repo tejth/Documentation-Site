@@ -402,16 +402,45 @@ const LangchainIntro = () => {
 
       {/* ================= COMPONENTS ================= */}
 
-      <h2>Core Components of LangChain</h2>
+     <h2>Core Components of LangChain</h2>
 
-      <ul>
-        <li>Models</li>
-        <li>Prompts</li>
-        <li>Chains</li>
-        <li>Agents</li>
-        <li>Indexes</li>
-        <li>Memory</li>
-      </ul>
+<ul>
+  <li>
+    <strong>Models:</strong> Models are the core AI components that perform
+    tasks such as text generation, understanding, reasoning and embeddings.
+    LangChain provides common interfaces to work with different models.
+  </li>
+
+  <li>
+    <strong>Prompts:</strong> Prompts are instructions or inputs given to an
+    LLM to guide its response. LangChain provides tools to create and manage
+    reusable and dynamic prompts.
+  </li>
+
+  <li>
+    <strong>Chains:</strong> Chains connect multiple steps together to
+    complete a specific task. For example, a chain can connect a prompt,
+    an LLM and an output parser into one workflow.
+  </li>
+
+  <li>
+    <strong>Agents:</strong> Agents allow an LLM to decide which tools or
+    actions should be used to complete a task. They are useful for building
+    AI systems that can dynamically perform multiple actions.
+  </li>
+
+  <li>
+    <strong>Indexes:</strong> Indexes help organize and retrieve information
+    from external data sources such as documents and databases. They are
+    commonly used in applications such as RAG systems.
+  </li>
+
+  <li>
+    <strong>Memory:</strong> Memory allows an AI application to store and
+    use information from previous interactions. It helps applications
+    maintain context across conversations or workflow steps.
+  </li>
+</ul>
 
       <h2>Quick Revision</h2>
 

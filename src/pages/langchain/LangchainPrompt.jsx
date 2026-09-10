@@ -389,8 +389,8 @@ for msg in messages:
           path: '/langchain/models'
         }}
         next={{
-          label: 'Chains',
-          path: '/langchain/chains'
+          label: 'Structured Output',
+          path: '/langchain/structured'
         }}
       />
     </DocPage>
