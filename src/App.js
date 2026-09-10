@@ -62,6 +62,7 @@ import Numpy  from './pages/dataanalysis/Numpy';
 import Pandas  from './pages/dataanalysis/Pandas';
 import LangchainStructured from './pages/langchain/LangchainStructured';
 import LangchainChains from './pages/langchain/LangchainChains';
+import LangchainRunnables from './pages/langchain/LangchainRunnables';
 
 // start
 import './App.css';
@@ -142,6 +143,7 @@ function renderPage(path) {
     case '/langchain/prompts': return <LangchainPrompt />;
     case '/langchain/structured': return <LangchainStructured />;
     case '/langchain/chains': return <LangchainChains />;
+    case '/langchain/runnables': return <LangchainRunnables />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;

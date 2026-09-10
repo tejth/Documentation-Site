@@ -101,6 +101,7 @@ export const navSections = [
       {label: 'Models', path: '/langchain/models', completed: false },
       {label: 'Prompts', path: '/langchain/prompts', completed: false },
       {label: 'StructuredOutput', path: '/langchain/structured', completed: false },
+      {label: 'Runnables', path: '/langchain/runnables', completed: false },
       {label: 'Chains', path: '/langchain/chains', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },
       { label: 'RAG Pipelines', path: '/langchain/rag-pipelines', completed: false },
