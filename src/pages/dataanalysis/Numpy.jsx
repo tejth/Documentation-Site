@@ -457,7 +457,7 @@ arr[arr > 3]`}</CodeBlock>
         }}
         next={{
           label: 'Pandas',
-          path: '/python/pandas'
+          path: '/dataanalysis/pandas'
         }}
       />
     </DocPage>

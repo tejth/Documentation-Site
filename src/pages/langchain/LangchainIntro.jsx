@@ -311,6 +311,81 @@ const LangchainIntro = () => {
         <li>LLM generates the final response.</li>
       </ol>
 
+
+       {/* ================= CHALLENGES & SOLUTIONS ================= */}
+
+      <h3>Challenges Came and Their Solutions</h3>
+
+      <h4>1. Designing the Brain</h4>
+
+      <p>
+        One of the major challenges in building an AI application is designing
+        the brain of the system. The system needs to understand natural
+        language, maintain context and generate meaningful text.
+      </p>
+
+      <p>
+        Creating Natural Language Understanding (NLU), context awareness and
+        text generation capabilities from scratch is a complex task.
+      </p>
+
+      <p>
+        This problem is solved with the introduction of
+        <strong> Large Language Models (LLMs)</strong>. Modern LLMs already
+        provide natural language understanding, context awareness and text
+        generation capabilities. Therefore, instead of building these
+        capabilities from scratch, developers can simply use an existing LLM.
+      </p>
+
+      <h4>2. Storage of LLMs</h4>
+
+      <p>
+        Another challenge is storing LLMs locally. Large Language Models can
+        contain billions of parameters and require a huge amount of memory and
+        computational resources to run on a device.
+      </p>
+
+      <p>
+        This problem is addressed through
+        <strong> LLM APIs</strong> provided by companies such as OpenAI,
+        Google and other AI providers.
+      </p>
+
+      <p>
+        Instead of downloading and storing the complete model on our device,
+        we can send a request to the provider's API. The model runs on the
+        provider's infrastructure and returns the generated response to our
+        application.
+      </p>
+
+      <h4>3. Orchestration</h4>
+
+      <p>
+        Suppose we have already built an AI application using OpenAI and later
+        want to replace OpenAI with another model such as Gemini. We may also
+        want to change the embedding generation technique or use a different
+        vector database.
+      </p>
+
+      <p>
+        Without an orchestration framework, these changes can require
+        modifications to multiple parts of the application because different
+        providers may have different APIs and implementation methods.
+      </p>
+
+      <p>
+        This problem is addressed by frameworks such as
+        <strong> LangChain</strong>. LangChain provides common interfaces for
+        working with different LLM providers, embedding models, vector
+        databases and other components.
+      </p>
+
+      <p>
+        Therefore, instead of rewriting the complete application, developers
+        can often switch the underlying model or component with minimal code
+        changes.
+      </p>
+
       {/* ================= APPLICATIONS ================= */}
 
       <h2>What Can We Build Using LangChain?</h2>
