@@ -64,6 +64,8 @@ import LangchainStructured from './pages/langchain/LangchainStructured';
 import LangchainChains from './pages/langchain/LangchainChains';
 import LangchainRunnables from './pages/langchain/LangchainRunnables';
 import DataManipulation from './pages/dataanalysis/DataManipulation';
+import MatPlot from './pages/dataanalysis/MatPlot';
+import Seaborn from './pages/dataanalysis/Seaborn';
 
 // start
 import './App.css';
@@ -155,7 +157,8 @@ function renderPage(path) {
     case '/dataanalysis/numpy': return <Numpy />;
     case '/dataanalysis/pandas': return <Pandas />;
     case '/dataanalysis/datamanipulation': return <DataManipulation />;
-    
+    case '/dataanalysis/matplotlib': return <MatPlot />;
+    case '/dataanalysis/seaborn': return <Seaborn />;
 
     default: return <HomePage />;
   }

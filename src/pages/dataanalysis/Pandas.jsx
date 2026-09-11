@@ -927,8 +927,8 @@ df.groupby('Age')['Value'].mean()
           path: '/dataanalysis/numpy'
         }}
         next={{
-          label: 'Matplotlib',
-          path: '/python/matplotlib'
+          label: 'Data Manipulation',
+          path: '/dataanalysis/data-manipulation'
         }}
       />
     </DocPage>

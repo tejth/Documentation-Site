@@ -1838,8 +1838,8 @@ pd.read_html()
           path: '/python/pandas'
         }}
         next={{
-          label: 'NumPy',
-          path: '/python/numpy'
+          label: 'Matplotlib',
+          path: '/dataanalysis/matplotlib'
         }}
       />
 
