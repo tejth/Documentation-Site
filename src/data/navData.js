@@ -128,6 +128,7 @@ export const navSections = [
     items: [
       { label: 'Numpy', path: '/dataanalysis/numpy', completed: false },
       { label: 'Pandas', path: '/dataanalysis/pandas', completed: false },
+      { label: 'DataManipulation', path: '/dataanalysis/datamanipulation', completed: false },
     ],
   },
 ];

@@ -63,6 +63,7 @@ import Pandas  from './pages/dataanalysis/Pandas';
 import LangchainStructured from './pages/langchain/LangchainStructured';
 import LangchainChains from './pages/langchain/LangchainChains';
 import LangchainRunnables from './pages/langchain/LangchainRunnables';
+import DataManipulation from './pages/dataanalysis/DataManipulation';
 
 // start
 import './App.css';
@@ -153,6 +154,7 @@ function renderPage(path) {
     //Data Analysis with Python 
     case '/dataanalysis/numpy': return <Numpy />;
     case '/dataanalysis/pandas': return <Pandas />;
+    case '/dataanalysis/datamanipulation': return <DataManipulation />;
     
 
     default: return <HomePage />;
