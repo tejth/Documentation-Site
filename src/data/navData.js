@@ -1,13 +1,17 @@
 export const navSections = [
-  // #sample check comment
   {
     id: 'getting-started',
     label: 'Getting Started',
     collapsible: false,
     items: [
-      { label: 'About This Docs', path: '/about', icon: 'info' },
+      {
+        label: 'About This Docs',
+        path: '/about',
+        icon: 'info',
+      },
     ],
   },
+
   {
     id: 'python',
     label: 'Python',
@@ -16,7 +20,7 @@ export const navSections = [
     collapsible: true,
     items: [
       { label: 'Introduction', path: '/python/intro', completed: true },
-      { label: 'Basics Of Python', path: '/python/data-types', completed: true },
+      { label: 'Python Basics', path: '/python/data-types', completed: true },
       { label: 'Operators and Conditional Statements', path: '/python/operators-conditionals', completed: true },
       { label: 'Loops', path: '/python/loops', completed: true },
       { label: 'Strings', path: '/python/strings', completed: true },
@@ -33,8 +37,8 @@ export const navSections = [
       { label: 'Iterators', path: '/python/iterators', completed: false },
       { label: 'Generators', path: '/python/generators', completed: false },
       { label: 'Decorators', path: '/python/decorators', completed: false },
-      { label: 'Working with Json Files', path: '/python/json-files', completed: false },
-      { label: 'Basic of Oops', path: '/python/oop', completed: false },
+      { label: 'Working with JSON Files', path: '/python/json-files', completed: false },
+      { label: 'Basics of OOP', path: '/python/oop', completed: false },
       { label: 'Encapsulation', path: '/python/encapsulation', completed: false },
       { label: 'Static Variables', path: '/python/static-variables', completed: false },
       { label: 'Inheritance', path: '/python/inheritance', completed: false },
@@ -43,21 +47,23 @@ export const navSections = [
       { label: 'Regular Expressions', path: '/python/regular-expressions', completed: false },
     ],
   },
-   {
+
+  {
     id: 'dataanalysis',
-    label: 'DataAnalysis',
+    label: 'Data Analysis',
     color: 'var(--datanalysis)',
     emoji: '🗺️',
     collapsible: true,
     items: [
-      { label: 'Numpy', path: '/dataanalysis/numpy', completed: false },
+      { label: 'NumPy', path: '/dataanalysis/numpy', completed: false },
       { label: 'Pandas', path: '/dataanalysis/pandas', completed: false },
-      { label: 'DataManipulation', path: '/dataanalysis/datamanipulation', completed: false },
+      { label: 'Data Manipulation', path: '/dataanalysis/datamanipulation', completed: false },
       { label: 'Matplotlib', path: '/dataanalysis/matplotlib', completed: false },
       { label: 'Seaborn', path: '/dataanalysis/seaborn', completed: false },
     ],
   },
-    {
+
+  {
     id: 'langchain',
     label: 'LangChain',
     color: 'var(--langchain)',
@@ -65,15 +71,16 @@ export const navSections = [
     collapsible: true,
     items: [
       { label: 'Introduction', path: '/langchain/intro', completed: false },
-      {label: 'Models', path: '/langchain/models', completed: false },
-      {label: 'Prompts', path: '/langchain/prompts', completed: false },
-      {label: 'StructuredOutput', path: '/langchain/structured', completed: false },
-      {label: 'Runnables', path: '/langchain/runnables', completed: false },
-      {label: 'Chains', path: '/langchain/chains', completed: false },
+      { label: 'Models', path: '/langchain/models', completed: false },
+      { label: 'Prompts', path: '/langchain/prompts', completed: false },
+      { label: 'Structured Output', path: '/langchain/structured', completed: false },
+      { label: 'Runnables', path: '/langchain/runnables', completed: false },
+      { label: 'Chains', path: '/langchain/chains', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },
       { label: 'RAG Pipelines', path: '/langchain/rag-pipelines', completed: false },
     ],
   },
+
   {
     id: 'langgraph',
     label: 'LangGraph',
@@ -86,7 +93,7 @@ export const navSections = [
       { label: 'Ollama Integration', path: '/langgraph/ollama-integration', completed: false },
     ],
   },
-  ,
+
   {
     id: 'java',
     label: 'Java',
@@ -95,31 +102,32 @@ export const navSections = [
     collapsible: true,
     items: [
       { label: 'Introduction', path: '/java/intro', completed: false },
-      { label: 'JVM , JDK and JRE', path: '/java/jvm', completed: false },
+      { label: 'JVM, JDK and JRE', path: '/java/jvm', completed: false },
       { label: 'Variables and Data Types', path: '/java/variables', completed: false },
       { label: 'Storing Negative Numbers', path: '/java/negative-numbers', completed: false },
       { label: 'Type Conversion', path: '/java/type-conversion', completed: false },
-      {label: 'Operators in Java', path: '/java/operators', completed: false },
-      {label: 'Conditionals', path: '/java/conditionals', completed: false },
-      {label: 'Loops', path: '/java/loops', completed: false },
-      {label: 'Strings', path: '/java/strings', completed: false },
-      {label: 'Arrays', path: '/java/arrays', completed: false },
-      {label: 'Functions', path: '/java/functions', completed: false },
-      {label: 'Classes and Objects', path: '/java/classes', completed: false },
-      {label: 'Constructors', path: '/java/constructors', completed: false },
-      {label: 'Object Memory', path: '/java/object-memory', completed: false },
-      {label: 'Call By Value and Reference', path: '/java/call-by-value', completed: false },
-      {label: 'Static and Final', path: '/java/static-final', completed: false },
-      {label: 'Encapsulation and Access Modifiers', path: '/java/encapsulation-access-modifiers', completed: false },
-      {label: 'Packages', path: '/java/packages', completed: false },
-      {label: 'Inheritance', path: '/java/inheritance', completed: false },
-      {label: 'Abstraction', path: '/java/abstraction', completed: false },
-      {label: 'Polymorphism', path: '/java/polymorphism', completed: false },
+      { label: 'Operators in Java', path: '/java/operators', completed: false },
+      { label: 'Conditionals', path: '/java/conditionals', completed: false },
+      { label: 'Loops', path: '/java/loops', completed: false },
+      { label: 'Strings', path: '/java/strings', completed: false },
+      { label: 'Arrays', path: '/java/arrays', completed: false },
+      { label: 'Functions', path: '/java/functions', completed: false },
+      { label: 'Classes and Objects', path: '/java/classes', completed: false },
+      { label: 'Constructors', path: '/java/constructors', completed: false },
+      { label: 'Object Memory', path: '/java/object-memory', completed: false },
+      { label: 'Call by Value and Reference', path: '/java/call-by-value', completed: false },
+      { label: 'Static and Final', path: '/java/static-final', completed: false },
+      { label: 'Encapsulation and Access Modifiers', path: '/java/encapsulation-access-modifiers', completed: false },
+      { label: 'Packages', path: '/java/packages', completed: false },
+      { label: 'Inheritance', path: '/java/inheritance', completed: false },
+      { label: 'Abstraction', path: '/java/abstraction', completed: false },
+      { label: 'Polymorphism', path: '/java/polymorphism', completed: false },
       { label: 'Auto-boxing and Unboxing', path: '/java/auto-boxing-unboxing', completed: false },
       { label: 'OOP Practice', path: '/java/ooppractice', completed: false },
-      {label: 'Collection Framework', path: '/java/collections', completed: false }
+      { label: 'Collection Framework', path: '/java/collections', completed: false },
     ],
   },
+
   {
     id: 'javascript',
     label: 'JavaScript',
@@ -134,7 +142,5 @@ export const navSections = [
       { label: 'Promises', path: '/javascript/promises', completed: false },
       { label: 'Modules', path: '/javascript/modules', completed: false },
     ],
-  }
-
-  
+  },
 ];
