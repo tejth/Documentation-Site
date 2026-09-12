@@ -260,6 +260,20 @@ response = chat.invoke(messages)
 print(response.content)`}</CodeBlock>
 
       <h2>Chat Prompt Templates</h2>
+        <div className="image-wrapper">
+        <img
+          src="/images/chp1.png"
+          alt="Foundation Models"
+          style={{
+            width: '100%',
+            maxWidth: '650px',
+            height: 'auto',
+            display: 'block',
+            margin: '20px auto',
+            borderRadius: '8px'
+          }}
+        />
+      </div>
 
       <p>
         ChatPromptTemplate is used for creating chat-style prompts with system,
