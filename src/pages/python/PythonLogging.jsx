@@ -1120,26 +1120,45 @@ exception()
       {/* 35. Mental Model */}
       <h2>35. Complete Mental Model</h2>
 
-      <CodeBlock filename="logging_mental_model.txt">{`Application
+            <CodeBlock filename="logging_mental_model.txt">{`Application
+
      ↓
+
    Logger
+
      ↓
+
 Create Log Message
+
      ↓
+
 Choose Log Level
+
      ↓
+
    Handler
+
      ↓
+
 ┌──────────────┬──────────────┐
 ↓              ↓
+
 Console       File
+
 ↓              ↓
+
 Terminal      app.log
-       \        /
-        \      /
+
+       \\        /
+
+        \\      /
+
          ↓    ↓
+
        Formatter
-           ↓
+
+          ↓
+
       Final Log`}</CodeBlock>
 
       {/* 36. Interview Questions */}
