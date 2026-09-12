@@ -67,6 +67,9 @@ import DataManipulation from './pages/dataanalysis/DataManipulation';
 import MatPlot from './pages/dataanalysis/MatPlot';
 import Seaborn from './pages/dataanalysis/Seaborn';
 import LangchainIndexes from './pages/langchain/LangchainIndexes';
+import Pythonsqlite from './pages/python/Pythonsqlite';
+import PythonLogging from './pages/python/PythonLogging';
+import LangchainMi from './pages/langchain/LangchainMi';
 
 // start
 import './App.css';
@@ -104,6 +107,10 @@ function renderPage(path) {
     case '/python/polymorphism': return <PythonPolymorphism />;
     case '/python/multithreading': return <PythonMultiThreading />;
     case '/python/regular-expressions': return <PythonRegularExpression />;
+    case '/python/sqlite': return <Pythonsqlite />;
+    case '/python/logging': return <PythonLogging />;
+
+
     case '/java/conditionals': return <JavaCondiitional />;
     case '/java/loops': return <JavaLoops />;
     case '/java/strings': return <JavaStrings />;
@@ -149,6 +156,7 @@ function renderPage(path) {
     case '/langchain/chains': return <LangchainChains />;
     case '/langchain/runnables': return <LangchainRunnables />;
     case '/langchain/indexes': return <LangchainIndexes />;
+    case '/langchain/mi': return <LangchainMi />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;

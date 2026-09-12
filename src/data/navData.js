@@ -45,6 +45,8 @@ export const navSections = [
       { label: 'Polymorphism', path: '/python/polymorphism', completed: false },
       { label: 'Multithreading', path: '/python/multithreading', completed: false },
       { label: 'Regular Expressions', path: '/python/regular-expressions', completed: false },
+      { label: 'SQLite', path: '/python/sqlite', completed: false },
+      { label: 'Logging', path: '/python/logging', completed: false },
     ],
   },
 
@@ -77,6 +79,7 @@ export const navSections = [
       { label: 'Runnables', path: '/langchain/runnables', completed: false },
       { label: 'Chains', path: '/langchain/chains', completed: false },
       { label: 'Indexes', path: '/langchain/indexes', completed: false },
+      { label: 'Memory and Agents ', path: '/langchain/mi', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },
       { label: 'RAG Pipelines', path: '/langchain/rag-pipelines', completed: false },
     ],
