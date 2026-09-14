@@ -78,6 +78,8 @@ export const navSections = [
       { label: 'Structured Output', path: '/langchain/structured', completed: false },
       { label: 'Runnables', path: '/langchain/runnables', completed: false },
       { label: 'Chains', path: '/langchain/chains', completed: false },
+
+      { label: 'LLM Chains', path: '/langchain/llmchains', completed: false },
       { label: 'Indexes', path: '/langchain/indexes', completed: false },
       { label: 'Memory and Agents ', path: '/langchain/mi', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },

@@ -70,6 +70,7 @@ import LangchainIndexes from './pages/langchain/LangchainIndexes';
 import Pythonsqlite from './pages/python/Pythonsqlite';
 import PythonLogging from './pages/python/PythonLogging';
 import LangchainMi from './pages/langchain/LangchainMi';
+import LangchainLlmchains from './pages/langchain/LangchainLlmchains';
 
 // start
 import './App.css';
@@ -154,6 +155,7 @@ function renderPage(path) {
     case '/langchain/prompts': return <LangchainPrompt />;
     case '/langchain/structured': return <LangchainStructured />;
     case '/langchain/chains': return <LangchainChains />;
+    case '/langchain/llmchains': return <LangchainLlmchains />;
     case '/langchain/runnables': return <LangchainRunnables />;
     case '/langchain/indexes': return <LangchainIndexes />;
     case '/langchain/mi': return <LangchainMi />;
