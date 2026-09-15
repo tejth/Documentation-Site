@@ -25,6 +25,21 @@ const Runnables = () => {
       <section>
         <h2>Why Need of Runnables in LangChain?</h2>
 
+           <div className="image-wrapper">
+        <img
+          src="/images/rp1.png"
+          alt="Runnables"
+          style={{
+            width: '100%',
+            maxWidth: '650px',
+            height: 'auto',
+            display: 'block',
+            margin: '20px auto',
+            borderRadius: '8px'
+          }}
+        />
+      </div>
+
         <p>
           Initially, LangChain handled different tasks using separate
           components such as Prompt Templates, LLM wrappers and Output
@@ -481,6 +496,7 @@ chain.run({
           <tbody>
             <tr>
               <td>RunnableSequence</td>
+              
               <td>Runs multiple steps one after another.</td>
             </tr>
 
@@ -865,7 +881,7 @@ final_chain.invoke({
         <h2>1. Runnable Sequence</h2>
          <div className="image-wrapper">
         <img
-          src="/images/rn3.PNG"
+          src="/images/rp2.png"
           alt="Runnables"
           style={{
             width: '100%',
@@ -978,7 +994,7 @@ print(
         <h2>2. Runnable Parallel</h2>
          <div className="image-wrapper">
         <img
-          src="/images/rn4.PNG"
+          src="/images/rp3.png"
           alt="Runnables"
           style={{
             width: '100%',
@@ -1105,7 +1121,7 @@ print(result['linkedin'])`}</CodeBlock>
         <h2>3. Runnable Passthrough</h2>
          <div className="image-wrapper">
         <img
-          src="/images/rn5.PNG"
+          src="/images/rp4.png"
           alt="Runnables"
           style={{
             width: '100%',
@@ -1241,7 +1257,7 @@ print(
         <h2>4. Runnable Branch</h2>
          <div className="image-wrapper">
         <img
-          src="/images/rn6.PNG"
+          src="/images/rp6.png"
           alt="Runnables"
           style={{
             width: '100%',
@@ -1375,7 +1391,7 @@ print(
         <h2>5. Runnable Lambda</h2>
          <div className="image-wrapper">
         <img
-          src="/images/rn7.PNG"
+          src="/images/rp5.png"
           alt="Runnables"
           style={{
             width: '100%',
