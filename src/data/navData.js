@@ -47,6 +47,7 @@ export const navSections = [
       { label: 'Regular Expressions', path: '/python/regular-expressions', completed: false },
       { label: 'SQLite', path: '/python/sqlite', completed: false },
       { label: 'Logging', path: '/python/logging', completed: false },
+      { label: 'Flask', path: '/python/flask', completed: false },
     ],
   },
 

@@ -71,6 +71,7 @@ import Pythonsqlite from './pages/python/Pythonsqlite';
 import PythonLogging from './pages/python/PythonLogging';
 import LangchainMi from './pages/langchain/LangchainMi';
 import LangchainLlmchains from './pages/langchain/LangchainLlmchains';
+import PythonFlask from './pages/python/PythonFlask';
 
 // start
 import './App.css';
@@ -110,7 +111,7 @@ function renderPage(path) {
     case '/python/regular-expressions': return <PythonRegularExpression />;
     case '/python/sqlite': return <Pythonsqlite />;
     case '/python/logging': return <PythonLogging />;
-
+    case '/python/flask': return <PythonFlask />;
 
     case '/java/conditionals': return <JavaCondiitional />;
     case '/java/loops': return <JavaLoops />;
