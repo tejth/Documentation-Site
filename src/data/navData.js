@@ -48,6 +48,7 @@ export const navSections = [
       { label: 'SQLite', path: '/python/sqlite', completed: false },
       { label: 'Logging', path: '/python/logging', completed: false },
       { label: 'Flask', path: '/python/flask', completed: false },
+      { label: 'Streamlit', path: '/python/streamlit', completed: false },
     ],
   },
 
