@@ -84,6 +84,7 @@ export const navSections = [
       { label: 'LLM Chains', path: '/langchain/llmchains', completed: false },
       { label: 'Indexes', path: '/langchain/indexes', completed: false },
       { label: 'Memory and Agents ', path: '/langchain/mi', completed: false },
+      { label: 'RAG', path: '/langchain/rag', completed: false },
       { label: 'Agents & Tools', path: '/langchain/agents-tools', completed: false },
       { label: 'RAG Pipelines', path: '/langchain/rag-pipelines', completed: false },
     ],

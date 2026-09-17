@@ -73,6 +73,7 @@ import LangchainMi from './pages/langchain/LangchainMi';
 import LangchainLlmchains from './pages/langchain/LangchainLlmchains';
 import PythonFlask from './pages/python/PythonFlask';
 import PythonStreamlit from './pages/python/PythonStreamlit';
+import LangchainRag from './pages/langchain/LangchainRag';
 
 // start
 import './App.css';
@@ -163,6 +164,7 @@ function renderPage(path) {
     case '/langchain/runnables': return <LangchainRunnables />;
     case '/langchain/indexes': return <LangchainIndexes />;
     case '/langchain/mi': return <LangchainMi />;
+    case '/langchain/rag': return <LangchainRag />;
     case '/langchain/agents-tools': return <ComingSoon title="Agents & Tools" section="LangChain" />;
     case '/langchain/rag-pipelines': return <ComingSoon title="RAG Pipelines" section="LangChain" />;
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
