@@ -74,6 +74,7 @@ import LangchainLlmchains from './pages/langchain/LangchainLlmchains';
 import PythonFlask from './pages/python/PythonFlask';
 import PythonStreamlit from './pages/python/PythonStreamlit';
 import LangchainRag from './pages/langchain/LangchainRag';
+import LangchainDoc from './pages/langchain/LangchainDoc';
 
 // start
 import './App.css';
@@ -170,6 +171,7 @@ function renderPage(path) {
     case '/langgraph/intro': return <ComingSoon title="LangGraph Introduction" section="LangGraph" />;
     case '/langgraph/stategraph': return <ComingSoon title="StateGraph" section="LangGraph" />;
     case '/langgraph/ollama-integration': return <ComingSoon title="Ollama Integration" section="LangGraph" />;
+    case '/langchain/doc-loaders': return <LangchainDoc />;
 
     //Data Analysis with Python 
     case '/dataanalysis/numpy': return <Numpy />;
