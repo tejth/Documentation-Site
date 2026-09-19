@@ -817,7 +817,7 @@ RAG / Chains / LLM Applications`}</CodeBlock>
 
       <PageNav
         prev={{ label: 'RAG', path: '/langchain/rag' }}
-        next={{ label: 'Text Splitters', path: '/lan/text-splitters' }}
+        next={{ label: 'Text Splitters', path: '/langchain/textsplitters' }}
       />
     </DocPage>
   );

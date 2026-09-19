@@ -75,6 +75,7 @@ import PythonFlask from './pages/python/PythonFlask';
 import PythonStreamlit from './pages/python/PythonStreamlit';
 import LangchainRag from './pages/langchain/LangchainRag';
 import LangchainDoc from './pages/langchain/LangchainDoc';
+import LangchainTextsplitter from './pages/langchain/LangchainTextsplitter';
 
 // start
 import './App.css';
@@ -172,6 +173,7 @@ function renderPage(path) {
     case '/langgraph/stategraph': return <ComingSoon title="StateGraph" section="LangGraph" />;
     case '/langgraph/ollama-integration': return <ComingSoon title="Ollama Integration" section="LangGraph" />;
     case '/langchain/doc-loaders': return <LangchainDoc />;
+    case '/langchain/textsplitter': return <LangchainTextsplitter />;
 
     //Data Analysis with Python 
     case '/dataanalysis/numpy': return <Numpy />;
